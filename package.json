@@ -1,0 +1,17 @@
+{
+  "name": "nammapros-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "npm@10.9.9",
+  "workspaces": [
+    "apps/web",
+    "apps/admin",
+    "packages/*"
+  ],
+  "scripts": {
+    "build:web": "npm run build -w @nammapros/web",
+    "build:admin": "npm run build -w @nammapros/admin",
+    "typecheck:web": "npm run typecheck -w @nammapros/web",
+    "test:web": "npm run test -w @nammapros/web"
+  }
+}
