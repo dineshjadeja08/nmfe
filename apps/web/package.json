@@ -12,10 +12,10 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@nammapros/api-client": "0.1.0",
-    "@nammapros/config": "0.1.0",
-    "@nammapros/types": "0.1.0",
-    "@nammapros/ui": "0.1.0",
+    "@nammapros/api-client": "file:../../packages/api-client",
+    "@nammapros/config": "file:../../packages/config",
+    "@nammapros/types": "file:../../packages/types",
+    "@nammapros/ui": "file:../../packages/ui",
     "@hookform/resolvers": "^5.9.1",
     "lucide-react": "^0.468.0",
     "next": "16.4.6",
@@ -41,3 +41,4 @@
     "vitest": "^4.1.11"
   }
 }
+

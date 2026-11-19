@@ -18,6 +18,7 @@ Connect this GitHub repository to two App Hosting backends in the existing Fireb
 | Customer web | `apps/web` |
 | Admin | `apps/admin` |
 
-Each app has an `apphosting.yaml`. Set `NEXT_PUBLIC_SITE_URL` for the customer app to its final HTTPS domain before launch. Allow the deployed frontend domains in the API's CORS and CSRF settings. Firebase Phone Authentication also requires the provider and authorized domains in Firebase and backend verification to be enabled before customer OTP login can work; the current backend has phone auth disabled.
+Each app has its own `package-lock.json` and `apphosting.yaml` because App Hosting installs dependencies from the selected app root. Set `NEXT_PUBLIC_SITE_URL` for the customer app to its final HTTPS domain before launch. Allow the deployed frontend domains in the API's CORS and CSRF settings. Firebase Phone Authentication also requires the provider and authorized domains in Firebase and backend verification to be enabled before customer OTP login can work; the current backend has phone auth disabled.
 
 Do not add private keys or database URLs to `NEXT_PUBLIC_*` variables or commit `.env` files.
+
