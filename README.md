@@ -1,6 +1,6 @@
 # NammaPros frontend
 
-This repository contains the customer web app (`apps/web`), admin app (`apps/admin`), and the shared packages they use. The API, mobile app, database credentials, and backend deployment files are in the separate backend repository.
+This repository contains the customer web app (`apps/web`), admin app (`apps/admin`), and the web app's shared packages under `apps/web/packages`. The API, mobile app, database credentials, and backend deployment files are in the separate backend repository.
 
 ## Local setup
 

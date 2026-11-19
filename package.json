@@ -5,8 +5,7 @@
   "packageManager": "npm@10.9.9",
   "workspaces": [
     "apps/web",
-    "apps/admin",
-    "packages/*"
+    "apps/admin"
   ],
   "scripts": {
     "build:web": "npm run build -w @nammapros/web",

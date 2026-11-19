@@ -12,10 +12,10 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@nammapros/api-client": "file:../../packages/api-client",
-    "@nammapros/config": "file:../../packages/config",
-    "@nammapros/types": "file:../../packages/types",
-    "@nammapros/ui": "file:../../packages/ui",
+    "@nammapros/api-client": "file:./packages/api-client",
+    "@nammapros/config": "file:./packages/config",
+    "@nammapros/types": "file:./packages/types",
+    "@nammapros/ui": "file:./packages/ui",
     "@hookform/resolvers": "^5.9.1",
     "lucide-react": "^0.468.0",
     "next": "16.4.6",
